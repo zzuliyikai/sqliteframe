@@ -1,4 +1,4 @@
-package com.yikai.sqliteframe.db;
+package com.yikai.sqlitemodule.db;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Environment;

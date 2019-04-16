@@ -5,8 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.yikai.sqliteframe.db.BaseDao;
-import com.yikai.sqliteframe.db.BaseDaoFactory;
+import com.yikai.sqlitemodule.db.BaseDao;
+import com.yikai.sqlitemodule.db.BaseDaoFactory;
 
 import java.util.List;
 
@@ -28,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
         //可扩展的用法，例如想多表查询
 
         mUserDao = BaseDaoFactory.getInstance().getDataHlper2(UserDao.class, User.class);
-
-
-
 
 
     }

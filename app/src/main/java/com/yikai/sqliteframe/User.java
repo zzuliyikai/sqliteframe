@@ -1,7 +1,8 @@
 package com.yikai.sqliteframe;
 
-import com.yikai.sqliteframe.annotation.DbField;
-import com.yikai.sqliteframe.annotation.DbTable;
+
+import com.yikai.sqlitemodule.annotation.DbField;
+import com.yikai.sqlitemodule.annotation.DbTable;
 
 /**
  * Created by 15738 on 2019/4/10.

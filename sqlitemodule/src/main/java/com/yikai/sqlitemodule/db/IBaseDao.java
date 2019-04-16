@@ -1,4 +1,4 @@
-package com.yikai.sqliteframe.db;
+package com.yikai.sqlitemodule.db;
 
 import java.util.List;
 
@@ -13,10 +13,10 @@ public interface IBaseDao<T> {
 
     int delete(T entity);
 
-    int update(T entity,T where);
+    int update(T entity, T where);
 
     List<T> query(T where);
 
-    List<T> query(T where,String orderBy, Integer startIndex, Integer limit);
+    List<T> query(T where, String orderBy, Integer startIndex, Integer limit);
 
 }

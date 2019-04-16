@@ -1,6 +1,7 @@
 package com.yikai.sqliteframe;
 
-import com.yikai.sqliteframe.db.BaseDao;
+
+import com.yikai.sqlitemodule.db.BaseDao;
 
 import java.util.List;
 
@@ -13,7 +14,12 @@ public class UserDao extends BaseDao {
 
 
     @Override
-    public List query(Object where) {
-        return super.query(where);
+    public List query(Object sql) {
+        //如果自己想连表查询的话
+        if (sql instanceof String) {
+            return null;
+        } else {
+            return super.query(sql);
+        }
     }
 }

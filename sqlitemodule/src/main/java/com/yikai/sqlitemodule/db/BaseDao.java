@@ -1,4 +1,4 @@
-package com.yikai.sqliteframe.db;
+package com.yikai.sqlitemodule.db;
 
 import android.content.ContentValues;
 import android.database.Cursor;
